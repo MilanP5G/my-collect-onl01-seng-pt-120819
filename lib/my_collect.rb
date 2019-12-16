@@ -3,7 +3,7 @@
    empty_array = []
    
   while i < collection.length
-   yield array[i]
+   yield collection[i]
     i += 1
   end 
   
