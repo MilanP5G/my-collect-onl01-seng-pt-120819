@@ -2,8 +2,8 @@
    i = 0
    empty_array = []
    
-  while i < collection.length
-    yield collection[i]    
+  while i < empty_array.length
+    empty_array << yield collection[i]    
     i += 1
   end 
   
