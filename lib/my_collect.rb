@@ -3,11 +3,9 @@
    empty_array = []
    
   while i < collection.length
-  empty_array << yield array[i]
+   yield array[i]
     i += 1
   end 
-  
-  empty_array
   
  end
  
