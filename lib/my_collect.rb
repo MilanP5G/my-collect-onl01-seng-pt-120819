@@ -3,7 +3,7 @@
    empty_array = []
    
   while i < collection.length
-    yield collection[i]
+    yield collection[i].split(" ").first    
     i += 1
   end 
   
