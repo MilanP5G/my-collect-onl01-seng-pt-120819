@@ -3,7 +3,7 @@
    empty_array = []
    
   while i < collection.length
-    empty_array << yield collection[i]    
+    empty_array << yield(collection[i].upcase)   
     i += 1
   end 
   
