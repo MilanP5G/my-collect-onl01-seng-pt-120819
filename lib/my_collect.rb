@@ -3,7 +3,7 @@
    empty_array = []
    
   while i < collection.length
-    yield collection[i].split(" ").first    
+    yield collection[i].upcase    
     i += 1
   end 
   
