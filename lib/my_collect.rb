@@ -1,5 +1,5 @@
  def my_collect(collection)
-   
+   i = 0
    empty_array = []
    
   while i < array.length
@@ -7,11 +7,6 @@
     i += 1
   end 
   
-   array 
- 
-  else
-    puts "Hey! No block was given!"
-  end
  end
  
 
