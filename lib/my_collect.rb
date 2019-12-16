@@ -2,7 +2,7 @@
    i = 0
    empty_array = []
    
-  while i < empty_array.length
+  while i < collection.length
     empty_array << yield collection[i]    
     i += 1
   end 
