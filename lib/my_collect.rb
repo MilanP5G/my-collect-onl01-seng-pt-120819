@@ -3,7 +3,7 @@
    empty_array = []
    
   while i < collection.length
-    yield collection[i].upcase    
+    yield collection.upcase[i]    
     i += 1
   end 
   
