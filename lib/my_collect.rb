@@ -7,7 +7,7 @@
     i += 1
   end 
   
-  collection
+  empty_array
   
  end
  
